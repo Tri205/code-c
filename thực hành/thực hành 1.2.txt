@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+	double A, B;//A la luong cua 1 nguoi, B la tuoi cua 1 nguoi.
+	scanf("%lf%lf", &A, &B);
+	printf("luong cua nguoi do la: %lf USD\n", A);
+	printf("tuoi cua nguoi do la: %lf\n", B);
+	return 0;
+}

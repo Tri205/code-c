@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+	int a, b, c;
+	printf("nhap ngay : ");
+	scanf("%d", &a);
+	printf(" nhap thang : ");
+	scanf("%d", &b);
+	printf("nhap nam : ");
+	scanf("%d", &c);
+	printf(" ngay hom nay la : %02d / %02d / %d\n", a, b, c);
+	return 0;
+}

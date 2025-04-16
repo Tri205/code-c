@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	int sum = 0, num;
+	printf("nhap 10 so tu ban phim di bbi : \n");
+	for(int i = 0; i < 10; i++){
+		printf("%d\n", i + 1);
+		scanf("%d", &num);
+		sum += num;
+	} 
+	printf("tong cua 10 so la : %d\n", sum);
+	return 0;
+}
